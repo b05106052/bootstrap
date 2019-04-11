@@ -1,0 +1,60 @@
+    a {
+        font-size: 25px;
+    }
+    
+    a:hover {
+        color: rgb(0, 229, 255);
+    }
+    
+    a.navbar-brand {
+        font-size: 30pt;
+    }
+    
+    button {
+        background-color: skyblue;
+        text-align: center;
+    }
+    
+    li {
+        color: rgb(1, 52, 128);
+        padding: 15px;
+        font-size: 20pt;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 35pt;
+    }
+    
+    div.card-text {
+        background-color: rgb(210, 234, 255);
+    }
+    
+    .btn-outline-primary,
+    .btn-outline-danger,
+    .btn-outline-warning {
+        border-width: 1.5pt;
+    }
+    
+    .btn-outline-warning {
+        color: rgb(210, 178, 0);
+        border-color: rgb(210, 178, 0);
+    }
+    
+    .btn-outline-warning:hover {
+        color: white;
+        background-color: rgb(210, 178, 0);
+        border-color: rgb(210, 178, 0);
+    }
+    
+    div.card {
+        box-shadow: 0 0 3px 1px rgba(51, 51, 51, 0.5);
+        transition: 0.3s;
+    }
+    
+    .btn-outline-primary:hover,
+    .btn-outline-danger:hover,
+    .btn-outline-warning:hover,
+    div.card:hover {
+        box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+    }
